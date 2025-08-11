@@ -1,0 +1,98 @@
+---
+title: bfloat Developer Documentation
+description: Comprehensive developer guide for the LLM-powered React Native app generation platform
+template: splash
+hero:
+  tagline: Master the codebase that transforms natural language into React Native apps
+  image:
+    file: ../../../public/assets/logo.svg
+  actions:
+    - text: Quick Start
+      link: /getting-started/quick-start/
+      icon: right-arrow
+      variant: primary
+    - text: View on GitHub
+      link: https://github.com/bfloat/bfloat-app-engineer
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Welcome to bfloat Developer Docs
+
+This documentation is designed to get new developers up to speed with the bfloat codebase **10x faster**. Whether you're contributing, extending features, or just trying to understand how LLMs generate React Native apps, you'll find everything you need here.
+
+<CardGrid stagger>
+	<Card title="🚀 Quick Start" icon="rocket">
+		Get your development environment up and running in under 5 minutes.
+		[Start here →](/getting-started/quick-start/)
+	</Card>
+	<Card title="🧠 LLM Integration" icon="laptop">
+		Understand how multiple AI providers generate React Native code.
+		[Learn more →](/core-concepts/llm-integration/)
+	</Card>
+	<Card title="📱 React Native Generation" icon="add-document">
+		Deep dive into how AI creates complete mobile applications.
+		[Explore →](/core-concepts/react-native-generation/)
+	</Card>
+	<Card title="🔧 API Reference" icon="information">
+		Complete API documentation for all endpoints and schemas.
+		[Browse APIs →](/api/routes-overview/)
+	</Card>
+</CardGrid>
+
+## What You'll Learn
+
+This documentation covers the complete bfloat platform architecture:
+
+### 🎯 **Core Platform**
+- **LLM Orchestration**: How multiple AI providers work together
+- **React Router v7**: File-based routing and SSR implementation  
+- **Real-time Streaming**: Server-sent events for live code generation
+- **State Management**: Zustand, TanStack Query, and React Hook Form patterns
+
+### 🤖 **AI Integration**
+- **Multi-Provider Strategy**: OpenAI, Anthropic, Google, DeepSeek, xAI
+- **Context Management**: Intelligent prompt engineering and context windows
+- **Code Generation Pipeline**: From intent to optimized React Native code
+- **Error Recovery**: Fallback mechanisms and quality assurance
+
+### 📱 **React Native Focus**
+- **Component Generation**: AI-created React Native components and screens
+- **Navigation Setup**: React Navigation configuration and deep linking
+- **State Architecture**: Redux, Context API, and Zustand implementations
+- **Platform Optimization**: iOS and Android specific enhancements
+
+### 🏗️ **Infrastructure**
+- **Database Design**: PostgreSQL with Prisma for projects and metadata
+- **File Storage**: AWS S3 for generated React Native project files
+- **Queue System**: BullMQ for background code generation jobs
+- **Deployment**: Docker + Fly.io for scalable hosting
+
+## Technology Stack
+
+<div class="tech-badges">
+<span class="tech-badge react">React Router v7</span>
+<span class="tech-badge typescript">TypeScript</span>
+<span class="tech-badge">TailwindCSS</span>
+<span class="tech-badge">Radix UI</span>
+<span class="tech-badge prisma">Prisma</span>
+<span class="tech-badge">PostgreSQL</span>
+<span class="tech-badge">OpenAI</span>
+<span class="tech-badge">Anthropic</span>
+<span class="tech-badge tailwind">Expo/EAS</span>
+</div>
+
+## Get Started
+
+<CardGrid>
+	<Card title="New to the Project?" icon="star">
+		Start with [Project Overview](/getting-started/project-overview/) to understand the big picture.
+	</Card>
+	<Card title="Ready to Code?" icon="puzzle">
+		Jump into [Development Setup](/getting-started/development-setup/) and start contributing.
+	</Card>
+	<Card title="Need Help?" icon="question-mark">
+		Check the [Troubleshooting Guide](/reference/troubleshooting/) for common issues.
+	</Card>
+</CardGrid>
