@@ -4,7 +4,8 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  outDir: "./docs",
+  site: "https://v1b3m.github.io",
+  base: "/bfloat-docs", // Only if using project pages
   integrations: [
     starlight({
       title: "bfloat Developer Docs",
